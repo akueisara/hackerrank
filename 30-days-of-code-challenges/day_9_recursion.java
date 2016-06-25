@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class day_9_recursion {
     private static int factorial(int n){
         
         if(n > 1){ // recursive case
