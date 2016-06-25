@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class day_11_2d_arrays {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
