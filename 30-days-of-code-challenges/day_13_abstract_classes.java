@@ -28,7 +28,7 @@ class MyBook extends Book{
     }
 }
 
-public class Solution
+public class day_13_abstract_classes
 {
    
    public static void main(String []args)
