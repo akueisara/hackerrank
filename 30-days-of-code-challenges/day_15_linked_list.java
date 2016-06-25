@@ -10,7 +10,7 @@ class Node {
     }
 }
 
-class Solution {
+class day_15_linked_list {
     public static  Node insert(Node head,int data) {
         //Complete this method
         Node n = new Node(data);
