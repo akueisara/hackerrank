@@ -13,7 +13,7 @@ class Calculator {
     }
 }
 
-class Solution{
+class day_17_more_exceptions{
 
     public static void main(String []argh)
     {
