@@ -26,7 +26,7 @@ class Difference {
     }
 } // End of Difference class
 
-public class Solution {
+public class day_14_scope {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
