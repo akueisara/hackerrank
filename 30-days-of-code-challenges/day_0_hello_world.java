@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class day_0_hello_world {
    public static void main(String[] args) {
       Scanner scan = new Scanner(System.in); // use the Scanner class to read from stdin
       String inputString = scan.nextLine(); // read a line of input and save it to a variable
