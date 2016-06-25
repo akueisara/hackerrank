@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class day_6_let's_review {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
