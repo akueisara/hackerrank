@@ -3,7 +3,7 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-public class Solution {
+public class day_3_intro_to_conditional_statements {
    
    public static void main(String[] args) {
       Scanner scan = new Scanner(System.in);
