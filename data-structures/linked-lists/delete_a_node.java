@@ -1,4 +1,4 @@
-
+/*
   Insert Node at the end of a linked list 
   head pointer input could be NULL as well for empty list
   Node is defined as 
@@ -6,12 +6,13 @@
      int data;
      Node next;
   }
+*/
 
-     This is a method-only submission. 
-     You only need to complete this method. 
+// This is a "method-only" submission. 
+// You only need to complete this method. 
 
 Node Delete(Node head, int position) {
-   Complete this method
+  // Complete this method
   Node n = head;
     if (position == 0) {
         head = head.next;
