@@ -3,7 +3,7 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-public class Arithmetic {
+public class day_2_operators {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
