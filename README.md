@@ -1,2 +1,2 @@
 # hackerrank
-code practice on https://www.hackerrank.com 
+Coding practices on https://www.hackerrank.com
