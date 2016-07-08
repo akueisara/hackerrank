@@ -14,16 +14,13 @@ public class Solution {
             int n = scan.nextInt();
             int k = scan.nextInt();
             int[] cost = new int[n];
-            int[] weight = new int[n];
             for(int j=0;j<n;j++){
                 cost[j] = scan.nextInt();
-                weight[j] = cost[j];
             }
-            
             int[] c = new int[k+1];
             for (int j=0; j<n; ++j)
-                for (int z = weight[j]; z <= k; ++z)
-                    c[z] = Math.max(c[z], c[z - weight[j]] + cost[j]);
+                for (int z = cost[j]; z <= k; ++z)
+                    c[z] = Math.max(c[z], c[z - cost[j]] + cost[j]);
             System.out.println(c[k]);
         }
     }    
