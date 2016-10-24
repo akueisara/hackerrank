@@ -12,14 +12,17 @@ public class Solution {
         for(int a0 = 0; a0 < t; a0++){
             int n = in.nextInt();
             int k = in.nextInt();
-            int max = 0;
-            for(int i=1;i<n;i++) {
-                for(int j=i+1;j<=n;j++) {
-                    if((i & j) > max && (i & j) < k)
-                        max = i&j;
+            if(k%2==0) {
+                if(((k-1)|k)<=n) {
+                    System.out.println(k-1);
                 }
-            } 
-            System.out.println(max);
+                else {
+                    System.out.println(k-2);
+                }
+            }
+            else {
+                System.out.println(k-1);
+            }
         }
     }
 }
