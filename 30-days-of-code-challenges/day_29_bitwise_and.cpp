@@ -31,14 +31,15 @@ int main(){
         int n;
         int k;
         cin >> n >> k;
-        int max = 0;
-        for(int i=1;i<n;i++) {
-                for(int j=i+1;j<=n;j++) {
-                    if((i & j) > max && (i & j) < k)
-                        max = i&j;
-                }
-        } 
-        cout << max << endl;
+        if(k%2==0) {
+            if(((k-1)|k)<=n) {
+                cout << k-1 << endl;
+            } else {
+                cout << k-2 << endl;
+            }
+        } else {
+            cout << k-1 << endl;
+		}
     }
     return 0;
 }
